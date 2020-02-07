@@ -1,0 +1,20 @@
+html,
+body {
+  color: #444444;
+  padding: 100px;
+  background: linear-gradient(to bottom left, #fff, #0C84DA);
+}
+* {
+  font-family: sans-serif;
+}
+
+
+:host {
+  display: flex;
+  min-height: 100%; // used percent instead of vh due to safari bug.
+  flex-direction: column;
+}
+
+.app {
+  flex: 1;
+}
